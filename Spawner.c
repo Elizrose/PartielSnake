@@ -17,9 +17,11 @@ void spawn(){
 
 void setApple()
 {
+    int posX = (rand() % (1200));
+    int posY = (rand() % (600));
+
     SDL_Rect rect = {posX, posY, 40, 40};
-    SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+    SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
     SDL_RenderFillRect(renderer, &rect);
 
-    return rect;
 }
