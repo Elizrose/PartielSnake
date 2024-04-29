@@ -133,6 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="SetSnake.c" />
+    <ClCompile Include="Spawner.c" />
     <ClCompile Include="WindowManager.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="movement.c" />
@@ -140,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="movement.h" />
     <ClInclude Include="setSnake.h" />
+    <ClInclude Include="Spawner.h" />
     <ClInclude Include="WindowManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
